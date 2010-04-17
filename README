@@ -1,0 +1,18 @@
+./build - build.js: Ant scripts to deploy the web app to Jaxer and create Persevere DB instance.
+./conf	 - CKTrans.confApps.js: Application configuration file for Jaxer.
+			- persvr.js: JSON document scheme for persevere.
+./css - Client stylesheet and images.
+
+./js -  client.js: Client scripts.
+ 		- config.js: Server configuration file.
+ 		- proxy.js: Proxy functions for handling Ajax requests.
+ 		- server-download.js: Server script implements the functionality of fetching language file.
+		- shared.js: Bunch of utility functions shared by both server and proxy codes.
+
+./lib - Libraries including:
+  			* jquery-in-place-editor (code.google.com/p/jquery-in-place-editor/)
+ 			* JSON Diff (http://tlrobinson.net/projects/javascript-fun/jsondiff/)
+ 			* JSON Path (http://code.google.com/p/jsonpath/)
+ 			
+./index.html - Main page for display and update language entries.
+./download.html - Service for downloading per language file.
