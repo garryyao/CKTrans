@@ -1,9 +1,4 @@
-/**
- * @fileOverview
- * Ant scripts for deploy server scripts to Jaxer and Perservere
- */
 importClass( java.io.File );
-importClass( org.apache.tools.ant.util.FileUtils );
 
 ( function()
 {
