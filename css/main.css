@@ -1,0 +1,72 @@
+body {
+	background-color: lightgrey;
+}
+
+#results
+{
+	cursor: default;
+	background-color:white;
+	border:1px dashed black;
+	margin:10px;
+	padding:15px;
+}
+
+#results ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#results li {
+	display: table;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px;
+	margin-top: 1px;
+}
+#results li.object
+{
+	padding-left: 15px;
+	background: url(open.png) no-repeat 2px 5px;
+}
+#results li[closed="yes"] {
+	background: url(closed.png) no-repeat 2px 5px;
+}
+#results li[closed="yes"] > ul {
+	display: none;
+}
+
+.missing
+{
+	background-color: #fd7f7f;
+}
+
+.outdated
+{
+	background-color: #FCFF7F;
+}
+
+.editable
+{
+	cursor: text;
+}
+.reference
+{
+	color: #A8A3A4;
+	display: none;
+}
+
+.opened .reference
+{
+	display : inline;
+}
+
+/* In-place edit box */
+.inplace_form
+{
+	display: block !important;
+}
+.inplace_field
+{
+	margin: 5px;
+}
